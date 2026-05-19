@@ -100,14 +100,13 @@ export const Contact = () => {
             Get In Touch
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Let's build{" "}
+            WeldinX{" "}
             <span className="font-serif italic font-normal text-white">
-              something great.
+              Technical Inspection.
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Have a project in mind? I'd love to hear about it. Send me a message
-            and let's discuss how we can work together.
+            Contact us for more
           </p>
         </div>
 
@@ -236,7 +235,7 @@ export const Contact = () => {
             </div>
 
             {/* Availability Card */}
-            <div className="glass rounded-3xl p-8 border border-primary/30">
+            {/* <div className="glass rounded-3xl p-8 border border-primary/30">
               <div className="flex items-center gap-3 mb-4">
                 <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                 <span className="font-medium">Currently Available</span>
@@ -246,7 +245,7 @@ export const Contact = () => {
                 Whether you need a full-time engineer or a freelance consultant,
                 let's talk!
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
