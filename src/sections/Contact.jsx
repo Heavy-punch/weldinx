@@ -105,8 +105,11 @@ export const Contact = () => {
               Technical Inspection.
             </span>
           </h2>
-          <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Contact us for more
+          <p className="text-muted-foreground animate-fade-in animation-delay-200 hover:text-foreground">
+            <span className="font-serif italic font-normal text-white">
+              WeldinX {" "}
+            </span>
+             Technical Inspection Co, Ltd
           </p>
         </div>
 
@@ -210,7 +213,7 @@ export const Contact = () => {
           {/* Contact Info */}
           <div className="space-y-6 animate-fade-in animation-delay-400">
             <div className="glass rounded-3xl p-8">
-              <h3 className="text-xl font-semibold mb-6">
+              <h3 className="text-xl font-semibold mb-6 text-center">
                 Contact Information
               </h3>
               <div className="space-y-4">

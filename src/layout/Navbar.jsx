@@ -28,8 +28,15 @@ export const Navbar = () => {
   const scrollToSection = () => {
     const element = document.getElementById('contact');
     if (element) {
-    element.scrollIntoView({ behavior: 'smooth' });
-  }
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  const handleMobileClick = () => {
+    const element = document.getElementById('contact');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+    setIsMobileMenuOpen(false)
   };
 
 
@@ -92,9 +99,12 @@ export const Navbar = () => {
               </a>
             ))}
 
-            <Button onClick={() => setIsMobileMenuOpen(false)}>
+            <Button onClick={handleMobileClick}>
               Contact Me
             </Button>
+            {/* <Button onClick={() => setIsMobileMenuOpen(false)}>
+              Contact Me
+            </Button> */}
           </div>
         </div>
       )}

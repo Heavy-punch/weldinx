@@ -36,10 +36,10 @@ const technical = [
 export const Expertise = () => {
     return (
         <section id="expertise" className="py-32 relative overflow-hidden">
-            <div className="container mx-auto px-6 relative z-10">
-                <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="container mx-auto px-5 md:px-30 relative z-10">
+                <div className="items-center ">
                     {/* Left Column */}
-                    <div className="space-y-8">
+                    <div className="space-y-5 ">
                         <div className="animate-fade-in">
                             <span className="text-secondary-foreground text-sm font-medium ium tracking-wider uppercase ">
                                 TECHNICAL EXPERTISE
@@ -56,32 +56,23 @@ export const Expertise = () => {
 
                         <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                             <p>
-                                WeldinX provides independent inspection, expediting, supplier audit, and technical consulting services to support fabrication and manufacturing projects.
-
-
-                                WeldinX also provides welding procedure qualification (WPS) and welder certification activities.
-                            </p>
-                            <p>
-                                With extensive experience in welding, fabrication, and industrial equipment, WeldinX supports clients by providing professional inspection services at manufacturing facilities, verifying that production activities meet project specifications and international standards.
-                            </p>
-                            <p>
-                                WeldinX also provides welding procedure qualification (WPS) and welder certification activities.
+                                WeldinX is supported by a team of highly experienced welding and inspection professionals with over 10 years of practical experience in fabrication, inspection, and quality assurance.
                             </p>
                         </div>
 
-                        <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
+                        {/* <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
                             <p className="text-lg font-medium italic text-foreground">
                                 "Our mission is to help clients ensure quality, compliance, and reliability throughout the production process."
                             </p>
-                        </div>
+                        </div> */}
                     </div>
 
                     {/* Right Column - Hilights */}
-                    <div className="grid sm:grid-cols-3 gap-2">
+                    <div className="grid sm:grid-cols-3 gap-2 mt-5">
                         {technical.map((item, idx) => (
                             <div
                                 key={idx}
-                                className="glass p-3 rounded-2xl animate-fade-in"
+                                className="glass p-3 rounded-2xl animate-fade-in mx-5"
                                 style={{ animationDelay: `${(idx + 1) * 100}ms` }}
                             >
                                 <h3 className="text-secondary-foreground text-sm font-semibold mb-2">{item.name}</h3>

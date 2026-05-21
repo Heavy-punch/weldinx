@@ -98,7 +98,7 @@ export const Service = () => {
                                                     group-hover:-translate-y-1 transition-all"
                                     />
                                 </div>
-                                <ul className="list-[circle] pl-5">
+                                <ul className="list-[circle] md:pl-5">
                                     {service.description.map((item, index) => (
                                         <li key={index} className="text-muted-foreground text-sm ">
                                             {item}
