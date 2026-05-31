@@ -21,7 +21,7 @@ export const Supplier = () => {
                  bg-center  bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(/supplier_photo.jpg)]">
                     <ul className="list-[circle] pl-5 rounded-full z-10">
                         {SUPPLIER.map((item, index) => (
-                            <li key={index} className="text-muted-foreground text-md hover:text-foreground opacity-100">
+                            <li key={index} className="text-muted text-md hover:text-foreground opacity-100">
                                 {item}
                             </li>
                         ))}

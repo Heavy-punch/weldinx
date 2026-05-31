@@ -38,7 +38,7 @@ export const Service = () => {
                     </span>
                     <h2 className="text-3xl md:text-4xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
                         Reliable Inspection 
-                        <span className="font-serif italic font-normal text-white">
+                        <span className="font-serif italic font-normal text-primary">
                             {" "}
                            Assured Quality
                         </span>

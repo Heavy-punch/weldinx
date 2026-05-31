@@ -101,12 +101,12 @@ export const Contact = () => {
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
             WeldinX{" "}
-            <span className="font-serif italic font-normal text-white">
+            <span className="font-serif italic font-normal text-primary">
               Technical Inspection.
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200 hover:text-foreground">
-            <span className="font-serif italic font-normal text-white">
+            <span className="font-serif italic font-normal text-primary">
               WeldinX {" "}
             </span>
              Technical Inspection Co, Ltd

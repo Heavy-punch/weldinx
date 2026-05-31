@@ -51,7 +51,7 @@ export const Navbar = () => {
           className="text-xl font-bold tracking-tight hover:text-primary block flex flex-col items-center justify-center"
         >
           {/* PM<span className="text-primary">.</span> */}
-          <img src="/logo.png" className="w-100px] h-[80px] "></img>
+          <img src="/logo1.png" className="w-100px] h-[80px] "></img>
           {/* <p className="text-primary block text-md ">WELDINX TECHNICAL INSPECTION</p> */}
         </a>
 
